@@ -1,0 +1,715 @@
+@media only screen and (max-width: 1366px) {
+    body {
+        background-color: #e5fffb;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    /* realme intro banner css */
+
+    .realme-intro-banner {
+        background-image: url("images/bg-2.png");
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: top center;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        min-width: 1366px;
+        height: 725px;
+        position: relative;
+    }
+    .intro-content {
+        position: absolute;
+        top: 250px;
+        left: 100px;
+    }
+    .intro-content > p {
+        color: #fff;
+        font-size: 24px;
+        line-height: 38px;
+        margin-top: 32px;
+    }
+
+    .intro-image {
+        position: absolute;
+        top: 70px;
+        right: 70px;
+    }
+
+
+    /* realme feature banner css */
+    .realme-grid-container-banner {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        grid-gap: 15px;
+        padding: 10px;
+        height: 680px;
+        margin: 70px;
+        min-width: 1168px;
+    }
+
+    .realme-grid-container-banner>div {
+        background-color: none;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+
+
+    .feature-banner-card {
+        grid-area: 2 / 6 / span 2 / span 2;
+        position: relative;
+        text-align: center;
+    }
+
+    .feature-banner-power-saving {
+        grid-area: 1 / 6 / span 1 / span 2;
+        position: relative;
+        text-align: center;
+    }
+
+    .feature-banner-battery {
+        grid-area: 1 / 3 / span 2 / span 3;
+        position: relative;
+        text-align: center;
+    }
+
+    .feature-banner-design {
+        grid-area: 3 / 3 / span 1 / span 3;
+        position: relative;
+        text-align: center;
+    }
+
+    .feature-banner-display {
+        grid-area: 1 / 1 / span 2 / span 2;
+        position: relative;
+        text-align: center;
+    }
+
+    .feature-banner-cpu {
+        grid-area: 3 / 1 / span 1 / span 2;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .feature-banner-display-p1 {
+        position: absolute;
+        top: 70%;
+        left: 9%;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    .feature-banner-display-p2 {
+        font-size: 30px;
+    }
+
+    .feature-banner-display-p3 {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .feature-banner-power-saving-p1 {
+        position: absolute;
+        top: 75%;
+        left: 25%;
+        transform: translate(-15%, -20%);
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .feature-banner-power-saving-p3 {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .feature-banner-design-p3 {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .feature-banner-design-p1 {
+        position: absolute;
+        top: 40%;
+        left: 32%;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+    .feature-banner-cpu-p3 {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .feature-banner-cpu-p1 {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 1;
+    }
+
+
+    .feature-banner-battery-p1 {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+    }
+
+    .feature-banner-card-p1 {
+        position: absolute;
+        top: 55%;
+        left: 15%;
+        font-size: 25px;
+        line-height: 1;
+    }
+
+    .feature-banner-card-p2 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .feature-banner-card-p3 {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+
+
+    /* realme 5000 battery banner css */
+    .realme-5000-battery {
+        background-image: url("images/bg-battery-banner.png");
+        background-repeat: no-repeat;
+        background-size: 2562px 1321px;
+        background-position: top center;
+        text-align: center;
+        padding-top: 50px;
+        min-width: 1366px;
+    }
+
+    .battery-content-container {
+        padding-top: 200px;
+    }
+
+    .battery-item1 {
+        font-size: 50px;
+        line-height: 68px;
+    }
+
+    .battery-item2 {
+        font-size: 50px;
+        line-height: 68px;
+        color: #575757;
+    }
+
+    .battery-item3 {
+        width: 810px;
+        color: #575757;
+        margin: 30px auto 0;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 600;
+    }
+
+    .battery-content {
+        display: inline-block;
+        margin: 0 50px 50px 50px;
+        font-size: 30px;
+        line-height: 27px;
+        color: #1d1d1f;
+        font-weight: 600;
+    }
+
+    .battery-content-sub {
+        font-size: 16px;
+        line-height: 18px;
+        color: #1d1d1f;
+    }
+
+    .battery-content-img {
+        margin-top: 130px;
+        width: 88%;
+    }
+
+    /* realme section saving mode css */
+    .realme-saving-mode {
+        margin: 200px 80px 100px 80px;
+        background-image: url("images/bg-saving-mode.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        /* min-width: 1366px; */
+        height: 737px;
+        width: 1200px;
+        background-size: 100% 100%;
+        position: relative;
+    }
+
+    .saving-mode-container {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    .saving-mode-container>h1 {
+        font-size: 40px;
+    }
+
+    .saving-mode-container>.saving-item1 {
+        font-size: 40px;
+        color: #575757;
+        ;
+        line-height: 40px;
+    }
+
+    .saving-mode-container>.saving-item2 {
+        color: #575757;
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 30px;
+        font-weight: 700;
+    }
+
+    .saving-mode-container>.saving-item3 {
+        font-size: 20px;
+        line-height: 32px;
+        margin-top: 60px;
+        font-weight: bolder;
+    }
+
+    /* realme display banner css */
+    .realme-display {
+        background-image: url("images/bg-display-content.png");
+        background-repeat: no-repeat;
+        background-size: 2562px 1321px;
+        background-position: top center;
+        text-align: center;
+        padding-top: 150px;
+        min-width: 1366px;
+    }
+
+    .display-content-container {
+        padding-top: 90px;
+    }
+
+    .display-item1 {
+        font-size: 50px;
+        line-height: 68px;
+        background: -webkit-linear-gradient(90deg, #00d9ea, #0084b2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .display-item2 {
+        font-size: 50px;
+        line-height: 68px;
+        color: #a1a1a6;
+    }
+
+    .display-item3 {
+        width: 810px;
+        color: #a1a1a6;
+        margin: 30px auto 0;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 600;
+    }
+
+    .display-content {
+        display: inline-block;
+        margin: 0 15px 50px 15px;
+        font-size: 30px;
+        line-height: 27px;
+        background: -webkit-linear-gradient(90deg, #14a5e0, #2fd7b2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+    }
+
+    .display-content>.display-content-sub {
+        font-size: 16px;
+        line-height: 24px;
+        color: #86868b;
+    }
+
+    .display-content-img {
+        margin-top: 105px;
+        width: auto;
+        height: 90%;
+    }
+
+    /* realme section cpu css */
+    .realme-cpu {
+        background-image: url("images/bg-core.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        height: 1120px;
+        width: 1366px;
+        background-size: auto 100%;
+        position: relative;
+        margin-top: 100px;
+    }
+
+    .cpu-container {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+    .cpu-container>h1 {
+        font-size: 50px;
+        line-height: 68px;
+        color: white;
+    }
+
+    .cpu-container>.cpu-item1 {
+        color: #86868b;
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 30px;
+    }
+
+    .cpu-container>.cpu-item2 {
+        font-size: 32px;
+        line-height: 38px;
+        margin-top: 30px;
+        background: linear-gradient(90deg, #14A5E0 0%, #2FD7B2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+        margin-top: 60px;
+    }
+
+    .cpu-container>.cpu-item2-1 {
+        font-size: 32px;
+        line-height: 28px;
+        margin-top: 30px;
+        background: linear-gradient(90deg, #14A5E0 0%, #2FD7B2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+    }
+
+    .cpu-container>.cpu-item3 {
+        font-size: 20px;
+        line-height: 10px;
+        color: #86868b;
+    }
+
+    .cpu-container>.cpu-item3-1 {
+        font-size: 20px;
+        line-height: 0px;
+        margin-top: 60px;
+        color: #86868b;
+    }
+
+    /* realme section card css */
+    .realme-card {
+        background: #e6faea;
+        height: 1023px;
+        position: relative;
+        min-width: 1366px;
+    }
+
+    .card-content-img {
+        position: absolute;
+        top: 250px;
+        bottom: 2px;
+        right: 17%;
+        height: 100%;
+        width: auto;
+    }
+
+    .card-content {
+        position: absolute;
+        top: 330px;
+        right: 5%;
+    }
+
+    .card-item1 {
+        font-size: 50px;
+        line-height: 68px;
+        font-weight: 600;
+    }
+
+    .card-item2 {
+        font-size: 50px;
+        line-height: 68px;
+    }
+
+    .card-item3 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 30px;
+        font-weight: 500;
+    }
+
+    /* realme section camera hd css */
+    .realme-camera-hd {
+        /* position: relative; */
+        background: linear-gradient(180deg, #FFFFFF 0%, #FBFBFB 100%);
+        padding-bottom: 170px;
+    }
+
+    .camerahd-text {
+        padding: 200px 50px 0 90px;
+    }
+    .camerahd-text1 {
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: 600;
+    }
+    .camerahd-text2 {
+        font-size: 50px;
+        line-height: 50px;
+        color: #575757;
+    }
+
+    .camerahd-grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+        padding: 10px;
+        height: 508px;
+        width: 1211px;
+        margin: 100px 50px 0 80px;
+    }
+
+    .camerahd-grid-container>div {
+        text-align: center;
+        padding:  none;
+        font-size: 32px;
+        line-height: 43px;
+        font-weight: 600;
+    }
+
+    .camerahd-grid2 {
+        grid-area: 1 / 2 / span 1 / span 2;
+    }
+
+
+
+    /* realme section camera ai css */
+    .realme-camera-ai {
+        /* position: relative; */
+        background: linear-gradient(180deg, #FFFFFF 0%, #FBFBFB 100%);
+        padding-bottom: 150px;
+    }
+
+    .cameraai-text {
+        padding: 200px 50px 0 190px;
+    }
+    .cameraai-text1 {
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: 600;
+    }
+    .cameraai-text2 {
+        font-size: 18px;
+        line-height: 50px;
+        color: #575757;
+    }
+
+    .cameraai-grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 50px;
+        padding: 10px;
+        height: 703px;
+        width: 977px;
+        margin: 100px 50px 0 180px;
+    }
+
+    .cameraai-grid-container>div {
+        text-align: center;
+        padding:  none;
+        font-size: 32px;
+        line-height: 43px;
+        font-weight: 600;
+    }
+
+    .cameraai-grid2 {
+        grid-area: 1 / 2 / span 1 / span 2;
+    }
+    .cameraai-grid1 {
+        position: relative;
+    }
+    .cameraai-grid1-img {
+        width: 513px;
+        height: 683px;
+    }
+    .cameraai-grid2-img {
+        width: 414px;
+        height: 427px;
+    }
+    .cameraai-grid1-text {
+        position: absolute;
+        top: 515px;
+        right: -150px;
+        transform: rotate(-90deg);
+    }
+    .cameraai-grid2-text {
+        text-align: right;
+    }
+
+
+    /* realme section water resistant css */
+    .realme-water-resistant {
+        background: #e6faea;
+        height: 880px;
+        position: relative;
+        min-width: 1366px;
+        text-align: center;
+    }
+
+    .water-resistant-content-img {
+        position: absolute;
+        top: 559px;
+        bottom: 2px;
+        right: 8%;
+        height: 100%;
+        width: auto;
+    }
+
+    .water-resistant-content {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .content-item1 {
+        font-size: 50px;
+        line-height: 50px;
+        font-weight: 600;
+    }
+
+    .content-item2 {
+        font-size: 50px;
+        line-height: 50px;
+        color: #575757;
+    }
+
+    .content-item3 {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 30px auto 0;
+        font-weight: 500;
+    }
+    .content-item4 {
+        display: inline-block;
+        list-style-type:none;
+        padding-top: 50px;
+        vertical-align:text-top;
+        padding: 50px 20px 0 20px;
+    }
+    .text-detail {
+        font-size: 36px;
+        line-height: 41px;
+        font-weight: 600;
+    }
+    .text-detail > span {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .text-detail-sub {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+
+    /* realme section comment css */
+    .realme-comment {
+        height: 589px;
+        padding: 110px 80px 110px 80px;
+        background: #fff;
+    }
+    .comment-header {
+        font-size: 17px;
+        line-height: 10px;
+        color: #000;
+        font-weight: 600;
+    }
+    .comment-content {
+        font-size: 17px;
+        line-height: 26px;
+        color: #000;
+    }
+    
+    /* realme section design css */
+    .realme-design {
+        height: 1888px;
+        background: #e6faea;
+        position: relative;
+    }
+    .design-content {
+        position: absolute;
+        text-align: left;
+        top: 300px;
+        left: 80px;
+    }
+    .content1 {
+        font-size: 50px;
+        line-height: 68px;
+        font-weight: 600;
+    }
+    .content2 {
+        color: #575757;
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 30px;
+        max-width: 460px;
+        font-weight: 600;
+    }
+    .design-img-1 {
+        position: absolute;
+        top: 160px;
+        right: 60px;
+        z-index: 2;
+    }
+    .design-img-2 {
+        position: absolute;
+        top: 1228px;
+        right: 4%;
+        z-index: 2;
+    }
+    .design-img-narzo {
+        position: absolute;
+        top: 950px;
+        z-index: 1;
+    }
+    .content3 {
+        text-align: center;
+        display: inline-block;
+        list-style-type:none;
+        padding-top: 50px;
+        vertical-align:text-top;
+        padding: 50px 40px 0 0;
+    }
+    .text-circle {
+        font-size: 30px;
+        line-height: 41px;
+        font-weight: 600;
+    }
+    .blue-circle {
+        height: 40px;
+        width: 40px;
+        background-color: #c9e1ce;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    .gray-circle {
+        height: 40px;
+        width: 40px;
+        background-color: #3e4552;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+}
